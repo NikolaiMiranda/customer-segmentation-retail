@@ -12,6 +12,7 @@ The goal is to identify distinct customer groups based on purchasing behavior to
 ## Dataset
 
 The analysis uses the `online_retail.csv` dataset, which contains transactional data from a UK-based online retail store.
+https://www.kaggle.com/datasets/thedevastator/online-retail-transaction-data/data
 
 ---
 
