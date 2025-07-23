@@ -1,4 +1,3 @@
-# customer-segmentation-retail
 # Customer Segmentation using RFM and K-Means
 
 This project performs **customer segmentation analysis** on an e-commerce dataset using two techniques:
