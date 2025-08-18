@@ -63,7 +63,9 @@ Engineered customer-level features to capture purchasing behavior:
 - Scaled features using `StandardScaler`
 - Determined optimal `k` using:
   - Elbow Method (Within-Cluster Sum of Squares)
+  - ![Elbow Method](ElbowMethod.png)
   - Davies-Bouldin Index (cluster separation)
+  - ![Davies-Bouldin](DaviesBouldin.png)
 - Selected `k=5` clusters for final segmentation
 - Applied K-Means clustering and assigned each customer to a segment
 
@@ -98,7 +100,9 @@ The identified segments provide clear opportunities for targeted marketing to im
 
 ## Segmentation Visualizations
 - **Interactive Dashboard**: Customer counts and boxplots of behavioral features by cluster
-- **3D PCA Plot**: Visual representation of clusters in reduced dimensional space
+- ![Cluster Summary](ClusterSummary.png)
+- **3D Interactive PCA Plot**: Visual representation of clusters in reduced dimensional space
+- ![3D Interactive PCA Plot](PCA.png)
 
 ## Key Results
 - Identified five distinct customer groups with meaningful business implications
