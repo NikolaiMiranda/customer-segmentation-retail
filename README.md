@@ -110,4 +110,4 @@ The identified segments provide clear opportunities for targeted marketing to im
 - Demonstrated how unsupervised learning can drive data-informed customer strategy
 
 ## Acknowledgments
-- **Dataset**: UCI Machine Learning Repository – Online Retail Dataset
+- **Dataset**: Chen, Daqing. "Online Retail." UCI Machine Learning Repository, 2015, https://doi.org/10.24432/C5BW33.
