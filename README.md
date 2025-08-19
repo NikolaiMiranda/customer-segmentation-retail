@@ -1,6 +1,6 @@
 # Customer Segmentation with K-Means Clustering
 
-This project demonstrates an end-to-end process for segmenting customers using transactional retail data from the UCI Online Retail Dataset. The workflow includes data importing, cleaning, feature engineering, clustering with K-Means, and interactive visualization of customer segments. The goal is to identify distinct customer groups based on purchasing behavior to inform marketing strategies and enhance customer relationship management.
+This project demonstrates an end-to-end process for segmenting customers using transactional retail data from the [UCI Online Retail Dataset](https://doi.org/10.24432/C5BW33). The workflow includes data importing, cleaning, feature engineering, clustering with K-Means, and interactive visualization of customer segments. The goal is to identify distinct customer groups based on purchasing behavior to inform marketing strategies and enhance customer relationship management.
 
 ## Table of Contents
 - [Dependencies](#dependencies)
@@ -20,7 +20,7 @@ pip install pandas numpy scikit-learn matplotlib plotly ucimlrepo
 ```
 
 ## Data Gathering and Cleaning
-- **Dataset**: UCI Online Retail Dataset (ucimlrepo, dataset ID 352)
+- **Dataset**: [UCI Online Retail Dataset (ucimlrepo, dataset ID 352)](https://doi.org/10.24432/C5BW33)
 - Joined IDs and features tables into a single DataFrame
 - Handled missing values by dropping rows without CustomerID
 - Removed canceled orders by matching against originals and adjusting quantities
