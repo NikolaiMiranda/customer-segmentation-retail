@@ -11,6 +11,7 @@ This project demonstrates an end-to-end process for segmenting customers using t
 - [Cluster Analysis](#cluster-analysis)
 - [Segmentation Visualizations](#segmentation-visualizations)
 - [Next Steps](#next-steps)
+- [Running the Colab Notebook](#running-the-colab-notebook)
 - [Acknowledgments](#acknowledgments)
 
 ## Dependencies:
@@ -77,7 +78,7 @@ Cluster-level summary statistics:
 - Develop and implement targeted marketing campaigns for each segment, followed by A/B testing to evaluate their effectiveness in driving engagement, conversions, and revenue.
 - Integrate additional data sources, such as customer demographics, website interactions, or external market trends, to enrich feature engineering and create more nuanced segments.
 
-## Running the Colab Notebook
+## Running the Colab Notebook:
 
 To run the project in Google Colab:
 
