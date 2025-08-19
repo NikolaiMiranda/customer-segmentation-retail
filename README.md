@@ -3,6 +3,8 @@
 This project demonstrates an end-to-end process for segmenting customers using transactional retail data from the [UCI Online Retail Dataset](https://doi.org/10.24432/C5BW33). The workflow includes data importing, cleaning, feature engineering, clustering with K-Means, and interactive visualization of customer segments. The goal is to identify distinct customer groups based on purchasing behavior to inform marketing strategies and enhance customer relationship management.
 
 ## Table of Contents:
+- [Running the Colab Notebook](#running-the-colab-notebook)
+- [Dependencies](#dependencies)
 - [Data Gathering and Cleaning](#data-gathering-and-cleaning)
 - [Handling Cancelled Orders](#handling-cancelled-orders)
 - [Feature Engineering](#feature-engineering)
@@ -10,9 +12,23 @@ This project demonstrates an end-to-end process for segmenting customers using t
 - [Cluster Analysis](#cluster-analysis)
 - [Segmentation Visualizations](#segmentation-visualizations)
 - [Next Steps](#next-steps)
-- [Running the Colab Notebook](#running-the-colab-notebook)
-- [Dependencies](#dependencies)
 - [Acknowledgments](#acknowledgments)
+
+## Running the Colab Notebook:
+
+To run the project in Google Colab:
+
+1. Open the [customer_segmentation.ipynb](https://github.com/NikolaiMiranda/customer-segmentation-retail/blob/main/customer_segmentation.ipynb) notebook in Google Colab.
+2. Install required dependencies.
+3. Run all cells sequentially.
+
+Note: Once you have run the cells, you can interact with the plots displayed under the "Segmentation Visualizations" section.
+
+## Dependencies:
+To run this project, install the following Python packages:
+```bash
+pip install pandas numpy scikit-learn matplotlib plotly ucimlrepo
+```
 
 ## Data Gathering and Cleaning:
 - **Dataset**: [UCI Online Retail Dataset (ucimlrepo, dataset ID 352)](https://doi.org/10.24432/C5BW33)
@@ -71,22 +87,6 @@ Cluster-level summary statistics:
 ## Next Steps:
 - Develop and implement targeted marketing campaigns for each segment, followed by A/B testing to evaluate their effectiveness in driving engagement, conversions, and revenue.
 - Integrate additional data sources, such as customer demographics, website interactions, or external market trends, to enrich feature engineering and create more nuanced segments.
-
-## Running the Colab Notebook:
-
-To run the project in Google Colab:
-
-1. Open the [customer_segmentation.ipynb](https://github.com/NikolaiMiranda/customer-segmentation-retail/blob/main/customer_segmentation.ipynb) notebook in Google Colab.
-2. Install required dependencies.
-3. Run all cells sequentially.
-
-Note: Once you have run the cells, you can interact with the plots displayed under the "Segmentation Visualizations" section.
-
-## Dependencies:
-To run this project, install the following Python packages:
-```bash
-pip install pandas numpy scikit-learn matplotlib plotly ucimlrepo
-```
 
 ## Acknowledgments:
 - **Dataset**: Chen, Daqing. "Online Retail." UCI Machine Learning Repository, 2015, https://doi.org/10.24432/C5BW33.
